@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, serif;
+    margin: 0;
+    background: #FBFBFC;
+}
+
+#header {
+    background: #293254;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo-style {
+    color: #be8e25;
+}
+
+#header-menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 278px 0 208px;
+}
+
+#header-menu a {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B8BACD;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+#header-menu a:hover {
+    color: white;
+}
+
+#header-menu a:active {
+    color: #D78E2D;
+}
+
+#header-search {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#block-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    color: #0B0F1F;
+    margin: 0;
+}
+
+.bg-1 {
+    margin-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 588px;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.bg-1:last-child {
+    margin-left: 19px;
+}
+
+.bg-1:hover {
+    box-shadow: 0 0 10px;
+}
+
+.image-1 {
+    width: 250px;
+    height: 252px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image-1 img {
+    max-width: 100%;
+    max-height: 100%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 9px 0 0 9px;
+}
+
+.news-1 {
+    max-width: 287px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.news-1 .time {
+    width: 100px;
+    margin-top: 27px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.title {
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #989BA7;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B0F1F;
+    margin-top: 13px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.time {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #989BA7;
+}
+
+.more-1 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3A63F3;
+    margin-top: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 69px;
+    text-decoration: none;
+}
+
+.more-1:hover {
+    color: #203B9B;
+}
+
+.more-1:active {
+    color: #203B9B;
+}
+
+#block-container-2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#block-container-2 .time {
+    margin-top: 20px;
+}
+
+#mini-news-1 {
+    width: 557px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #0B0F1F;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 126px;
+}
+
+#mini-news-1:hover {
+    color: grey;
+}
+
+#mini-news {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 0;
+    max-width: 461px;
+}
+
+.mini-news-2 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B0F1F;
+    display: inline-block;
+    width: 461px;
+}
+
+.mini-news-2:last-child {
+    margin-top: 30px;
+}
+
+.mini-news-2:hover {
+    color: grey;
+}
+
+
+#block-container-3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 4px solid #D78E2D;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#block-container-3 .time{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#block-text {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    max-width: 1044px;
+    padding: 30px 78px 0 78px;
+}
+
+#block-text:hover{
+    color: #818181;
+}
+
+#footer {
+    background: #080E24;
+    margin-top: 80px;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+#footer-text {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #B8BACD;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1043px;
+}
+
+
+
+

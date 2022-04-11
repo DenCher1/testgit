@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, serif;
+    background: #020303;
+    margin: 0 auto;
+}
+
+#header {
+    background: #020303;
+    padding: 30px 0;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-image {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.logo-text {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 60px;
+}
+
+#header-items {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 282px;
+}
+
+.header-item {
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    margin-right: 58px;
+}
+
+#info-container {
+    max-width: 1200px;
+    padding-top: 133px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+#container-info {
+    max-width: 564px;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-bottom: 45px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0;
+}
+
+#h1-text {
+    color: #ffaf18;
+}
+
+#fresh-range {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 74px;
+    font-size: 0;
+}
+
+.fresh {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 99px;
+}
+
+#range {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 94px;
+}
+
+.fresh-range-image {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.fresh-range-text {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+#info-button {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    padding: 22px;
+    box-sizing: border-box;
+    margin-top: 99px;
+}
+
+#info-image {
+    vertical-align: bottom;
+    display: inline-block;
+    max-width: 614px;
+    margin-left: 17px;
+}
+
+#info-2 {
+    padding-top: 120px;
+    padding-bottom: 108px;
+}
+
+#info-2-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#headline-2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+
+#menu-items {
+    font-size: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.item {
+    background: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px;
+    max-width: 282px;
+}
+
+.image-item {
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+
+.item-title {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+}
+
+.item-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    max-width: 242px;
+    margin: 16px 20px 16px 20px;
+    height: 52px;
+}
+
+.item-button button {
+    background-color: rgb(255, 175, 24);
+    border-radius: 30px;
+    width: 242px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px 15px 20px;
+    border: 0;
+}
+
+
+#info-3-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+#container-info-3 {
+    max-width: 370px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#headline-3 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0;
+}
+
+#container-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-top: 60px;
+}
+
+#info-3-image {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+#law {
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 390px;
+}

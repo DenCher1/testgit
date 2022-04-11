@@ -1,0 +1,81 @@
+.container-comment {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.comm-1 {
+    display: flex;
+}
+
+.comm-1 .avatar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px 0 0;
+}
+
+.avatar img {
+    width: 60px;
+}
+
+.comm-1 .avatar img:first-child {
+    margin-bottom: 90px;
+}
+
+.comm-text {
+    display: flex;
+    width: 700px;
+    border: 1px solid grey;
+    justify-content: space-between;
+}
+
+.main-text {
+    display: flex;
+    max-width: 500px;
+    line-height: 22px;
+    padding: 7px;
+}
+
+.additional-text {
+    padding: 7px 10px;
+}
+
+.commentator {
+    display: flex;
+    justify-content: end;
+}
+
+.text-color {
+    color: blue;
+}
+
+.comm-2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comm-2 .avatar img {
+    margin-top: 100px;
+    margin-right: 25px;
+}
+
+
+.comm-3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comm-3 .avatar img {
+    margin-top: 70px;
+    margin-right: 25px;
+}
+
+.comm-4 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.comm-4 .avatar img {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+

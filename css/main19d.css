@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    background-image: url("../Images/bg_objects.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #81D0E1;
+}
+
+@font-face {
+    font-family: "LinotteBold";
+    src: url("../fonts/Linotte-Bold.ttf");
+}
+
+@font-face {
+    font-family: "LinotteRegular";
+    src: url("../fonts/Linotte-Regular.ttf");
+}
+
+.logo {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    display: flex;
+    opacity: 70%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo svg {
+    transition-property: box-shadow;
+    transition-duration: 500ms;
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.logo svg:hover {
+    box-shadow: #81d0e1 0 0 0 2px, rgba(255, 255, 255, .5) 0 0 0 4px, inset #81d0e1 0 0 0 3px, inset rgba(255, 255, 255, .3) 0 0 0 4px;
+);
+    opacity: 100%;
+}
+
+.push {
+    margin-left: 20px;
+    opacity: 0;
+    color: white;
+    font-family: "LinotteRegular";
+}
+
+.logo .push {
+    position: absolute;
+    white-space: nowrap;
+    left: 50px;
+    opacity: 0;
+    transition: all 0.5s;
+    color: #fff;
+}
+
+.logo:hover span {
+    opacity: 1;
+}
+
+#item-2 {
+    display: flex;
+    align-items: center;
+    top: 28px;
+    right: 27px;
+    position: absolute;
+}
+
+#item-2 .item {
+    margin-left: 30px;
+}
+
+#content {
+    position: absolute;
+    top: calc(50% - 135px);
+    left: calc(50% - 472px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-family: LinotteBold;
+    font-size: 83px;
+    line-height: 97px;
+    letter-spacing: 0.975em;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+
+#letter::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: transparent;
+    z-index: 1;
+    border: 15px solid white;
+    border-radius: 50%;
+    bottom: 6px;
+    left: 120px;
+    opacity: 0;
+    animation: "pulse";
+    animation-delay: 1s;
+    transition: 1s;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    -o-transition: 2s ease;
+    animation: pulse 3s ease-in infinite;
+    transition: all 3s;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.3;
+    }
+
+    70% {
+        opacity: 0.2;
+    }
+
+    90% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#title-2 {
+    font-family: LinotteRegular;
+    font-size: 50px;
+    line-height: 59px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    padding-top: 41px;
+}
+
+#images {
+    padding-top: 42px;
+}
+
+#images img {
+    transition: all 0.5s;
+    margin-right: 10px;
+}
+
+#images img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.item svg {
+    transition-property: box-shadow;
+    transition-duration: 500ms;
+    border-radius: 50%;
+    opacity: 70%;
+}
+
+.item svg:hover {
+    box-shadow: #81d0e1 0 0 0 2px, rgba(255, 255, 255, .5) 0 0 0 4px, inset #81d0e1 0 0 0 3px, inset rgba(255, 255, 255, .3) 0 0 0 4px;
+);
+    opacity: 100%;
+}
+
+#image-mouse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 15px);
+}
+
+#mouse {
+    margin-bottom: 40px;
+    animation: move 2s ease-in infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, -10px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -10px);
+    }
+}
+
+#arrows {
+    padding-bottom: 25px;
+    animation: move2 2s linear infinite;
+}
+
+@keyframes move2 {
+    0% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+
+    30% {
+        transform: translate(0, 0px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translate(0, 10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+}
+
+.arrow-1 {
+    position: absolute;
+    bottom: 34px;
+    left: calc(50% - 10px);
+}
+
+.arrow-2 {
+    position: absolute;
+    bottom: 24px;
+    left: calc(50% - 10px);
+}

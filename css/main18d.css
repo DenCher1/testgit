@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "TavolgaFree";
+    src: url("../fonts/tavolga-free.ttf");
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: "GilroyExtrabold";
+    src: url("../fonts/Gilroy-Extrabold.ttf");
+}
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: "GilroyRegular";
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+
+#header {
+    background-color: rgb(235, 168, 177);
+    padding: 38px 0;
+}
+
+#header-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "TavolgaFree";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu {
+    margin: 0 307px 0 227px;
+    display: flex;
+}
+
+#menu a.menu-item {
+    font-size: 14px;
+    font-family: "GilroyMedium";
+    color: rgb(119, 11, 29);
+    text-decoration: none;
+    margin-right: 39px;
+    border-bottom: 2px solid transparent;
+}
+
+#menu a.menu-item:hover {
+    border-bottom: 2px solid #821328;
+}
+
+.phone {
+    font-size: 16px;
+    font-family: "GilroyBold";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#block {
+    background-color: rgb(235, 168, 177);
+}
+
+#block-container {
+    padding-top: 127px;
+    padding-bottom: 108px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#block-description {
+    max-width: 580px;
+}
+
+#block-description h1 {
+    font-size: 55px;
+    font-family: "TavolgaFree";
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+#block-text {
+    font-size: 18px;
+    font-family: "TavolgaFree";
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    max-width: 348px;
+    margin-top: 60px;
+}
+
+#block-action {
+    margin-top: 80px;
+    width: 240px;
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    padding: 19px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: "GilroyBold";
+    color: rgb(255, 255, 255);
+    border: 0;
+    box-sizing: border-box;
+}
+
+#block-image {
+    margin-left: 14px;
+}
+
+#block-2 {
+    background-color: rgb(255, 239, 239);
+}
+
+#block-container-2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 119px;
+    padding-bottom: 120px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#block-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#block-description-2 h2 {
+    max-width: 475px;
+    font-size: 45px;
+    font-family: "TavolgaFree";
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+}
+
+#block-text-2 {
+    max-width: 397px;
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: "GilroyRegular";
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+}
+
+#block-image-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#benefits {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit {
+    max-width: 217px;
+}
+
+.number {
+    font-size: 60px;
+    font-family: "GilroyExtrabold";
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.benefit-title {
+    font-size: 20px;
+    font-family: "GilroyExtrabold";
+    color: rgb(51, 25, 7);
+    margin-top: 19px;
+}
+
+.benefit-description {
+    font-size: 15px;
+    font-family: "GilroyMedium";
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    margin-top: 20px;
+}
+
+#block-3 {
+    background-color: rgb(235, 168, 177);
+}
+
+#block-container-3 {
+    padding-top: 120px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+#block-title-3 {
+    font-size: 45px;
+    font-family: "TavolgaFree";
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#products {
+    padding-top: 143px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 263px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.product .product-image {
+    text-align: center;
+    position: absolute;
+    top: -60px;
+    left: 34px
+}
+
+.product .product-title {
+    font-size: 18px;
+    font-family: "TavolgaFree";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 109px;
+}
+
+.product .product-order {
+    display: flex;
+    margin-top: 26px;
+    margin-left: 16px;
+    align-items: center;
+    padding-bottom: 27px;
+    padding-right: 21px;
+    justify-content: space-between;
+}
+
+.residue {
+    font-size: 15px;
+    font-family: "GilroyRegular";
+    color: rgb(255, 255, 255);
+}
+
+.price {
+    font-size: 15px;
+    font-family: "GilroyRegular";
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+}
+
+.order {
+    width: 130px;
+    text-align: center;
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    border-radius: 40px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "GilroyBold";
+    color: rgb(255, 255, 255);
+    border: 0;
+    box-sizing: border-box;
+}
+
+#block-4 {
+    background-color: rgb(255, 239, 239);
+}
+
+#block-container-4 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 98px;
+    padding-bottom: 120px;
+    display: flex;
+    position: relative;
+}
+
+
+#kl-1 {
+    position: absolute;
+    top: 150px;
+}
+
+
+#block-4-image {
+    margin-top: 90px;
+    margin-left: 19px;
+    margin-right: 163px;
+}
+
+#block-title-4 {
+    font-size: 45px;
+    font-family: "TavolgaFree";
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+}
+
+#choice {
+    font-size: 18px;
+    font-family: "GilroyRegular";
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 403px;
+    margin-top: 41px;
+}
+
+#form {
+    margin-top: 48px;
+    position: relative;
+}
+
+#kl-2 {
+    position: absolute;
+    bottom: 85px;
+    right: 0;
+}
+
+#form-title {
+    font-size: 18px;
+    font-family: "GilroyBold";
+    color: rgb(18, 10, 6);
+    margin-top: 48px;
+}
+
+#form-title-2 {
+    font-size: 18px;
+    font-family: "GilroyBold";
+    color: rgb(18, 10, 6);
+    margin-top: 40px;
+}
+
+.fill-in {
+    max-width: 293px;
+}
+
+.fill-in input {
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "GilroyBold";
+    box-sizing: border-box;
+    padding: 19px 25px;
+    background-color: rgb(255, 239, 239);
+    outline: 0;
+    width: 293px;
+    margin-top: 20px;
+}
+
+.fill-in input:last-child {
+    margin-top: 15px;
+}
+
+::placeholder {
+    color: rgb(118, 12, 34);
+}
+
+#form-button {
+    margin-top: 15px;
+    border-radius: 30px;
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    font-size: 18px;
+    font-family: "GilroyBold";
+    color: rgb(255, 255, 255);
+    padding: 19px;
+    box-sizing: border-box;
+    border: 0;
+    width: 293px;
+}
+
+#footer {
+    background-color: rgb(192, 112, 124);
+}
+
+#footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 73px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rights {
+    font-size: 12px;
+    font-family: "GilroyRegular";
+    color: rgb(227, 172, 180);
+    margin-top: 19px;
+}
+
+#social-icon {
+    text-align: center;
+    fill: white;
+}
+
+#social-text {
+    font-size: 16px;
+    font-family: "GilroyBold";
+    color: rgb(255, 255, 255);
+}
+
+#burger {
+    display: none;
+}
+
+#menu svg {
+    display: none;
+}

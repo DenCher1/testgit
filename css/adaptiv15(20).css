@@ -1,0 +1,121 @@
+@media screen and (max-width: 1201px) {
+    #block-container-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #block-text {
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #description {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 49px;
+    }
+
+    #services {
+        padding-top: 9px;
+        margin: 0 auto;
+    }
+
+    .service {
+        padding-top: 44px;
+        justify-self: center;
+        margin: 0 auto;
+    }
+
+    #images {
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    #block-container-3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #block-3-title {
+        text-align: center;
+    }
+
+    #couples {
+        grid-template-columns: 282px 282px;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        row-gap: 40px;
+        column-gap: 40px;
+    }
+
+    #footer-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    #services {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    #images {
+        display: none;
+    }
+
+    #block-3-title {
+        font-size: 36px;
+    }
+
+    #couples {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .couple {
+        justify-self: center;
+    }
+
+    #footer-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    #social {
+        align-self: end;
+    }
+
+    #footer-text {
+        align-self: baseline;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    #logo-actions {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 13px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #block-3-title {
+        font-size: 30px;
+    }
+
+}
